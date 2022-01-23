@@ -12,7 +12,7 @@ function App() {
       }
       return errors;
     },
-    onSubmit: (values) => console.table(values),
+    onSubmit: (values) => console.table(values, "values"),
   });
   return (
     <>

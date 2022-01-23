@@ -22,8 +22,7 @@ const useForm = ({ initialValues, validation, onSubmit }) => {
       return setErrors(errors);
     }
     setErrors({});
-    onSubmit();
-    console.log("submited!");
+    onSubmit(values);
   };
 
   return { handleChange, handleSubmit, values, errors };
