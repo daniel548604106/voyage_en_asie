@@ -41,7 +41,7 @@ class Stack {
       let temp = currentNode.next;
       currentNode.next = null;
       this.length--;
-      return temp;
+      return temp.value;
     }
   }
 
